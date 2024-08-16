@@ -1,6 +1,10 @@
 import streamlit as st
 import requests
 
+import subprocess
+
+subprocess.run(["python", "api.py"])
+
 # import os
 # os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
 
